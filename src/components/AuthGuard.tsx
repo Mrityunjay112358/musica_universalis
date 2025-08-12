@@ -34,34 +34,8 @@ export default function AuthGuard({ children }: AuthGuardProps) {
   // Temporarily bypass authentication - render children directly
   return (
     <div>
-      {children}
-    </div>
-  );
-
-  return (
-    <div>
       {/* User is authenticated, show the main app */}
       {children}
-      
-      {/* Optional: Add a user menu in the header */}
-      <div className="fixed bottom-4 right-4 z-50">
-        <div className="glass-dark rounded-xl p-3 border border-white/10">
-          <div className="flex items-center gap-3">
-            <div className="text-sm text-slate-300">
-              Welcome, <span className="text-white font-medium">{user.first_name || user.username}</span>
-            </div>
-            <div className="text-xs text-slate-400">
-              ID: {user.id.slice(0, 8)}...
-            </div>
-            <button
-              onClick={signOut}
-              className="text-xs bg-red-500/20 text-red-400 px-3 py-1 rounded-lg hover:bg-red-500/30 transition-colors"
-            >
-              Sign Out
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

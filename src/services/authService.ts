@@ -1,4 +1,5 @@
 import { supabase } from '../lib/supabase';
+import { hasSupabaseCredentials } from '../lib/supabase';
 import type { User } from '../lib/supabase';
 
 export interface SignUpData {
@@ -169,6 +170,11 @@ class AuthService {
 
   async getCurrentUser(): Promise<{ user: User | null; error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: No authentication required');
+        return { user: null, error: null };
+      }
+
       const { data: authData, error: authError } = await supabase.auth.getUser();
 
       if (authError || !authData.user) {

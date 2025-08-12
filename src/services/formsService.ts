@@ -1,4 +1,5 @@
 import { supabase } from '../lib/supabase';
+import { hasSupabaseCredentials } from '../lib/supabase';
 import { authService } from './authService';
 
 export interface VolunteerApplicationData {
@@ -114,6 +115,11 @@ export interface ChapterApplicationData {
 class FormsService {
   async submitVolunteerApplication(data: VolunteerApplicationData): Promise<{ error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: Volunteer application would be submitted:', data);
+        return { error: null };
+      }
+
       const { error } = await supabase
         .from('volunteer_applications')
         .insert([
@@ -156,6 +162,11 @@ class FormsService {
 
   async submitPartnerSchoolApplication(data: PartnerSchoolApplicationData): Promise<{ error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: Partner school application would be submitted:', data);
+        return { error: null };
+      }
+
       const { error } = await supabase
         .from('partner_school_applications')
         .insert([
@@ -198,6 +209,11 @@ class FormsService {
 
   async submitDonation(data: DonationData): Promise<{ error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: Donation would be submitted:', data);
+        return { error: null };
+      }
+
       const { error } = await supabase
         .from('donations')
         .insert([
@@ -235,6 +251,11 @@ class FormsService {
 
   async submitInstrumentSponsorship(data: InstrumentSponsorshipData): Promise<{ error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: Instrument sponsorship would be submitted:', data);
+        return { error: null };
+      }
+
       const { error } = await supabase
         .from('instrument_sponsorships')
         .insert([
@@ -276,6 +297,11 @@ class FormsService {
 
   async submitChapterApplication(data: ChapterApplicationData): Promise<{ error: string | null }> {
     try {
+      if (!hasSupabaseCredentials()) {
+        console.log('Demo mode: Chapter application would be submitted:', data);
+        return { error: null };
+      }
+
       const { error } = await supabase
         .from('chapter_applications')
         .insert([
