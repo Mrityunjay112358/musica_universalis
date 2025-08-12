@@ -122,7 +122,7 @@ export default function StartChapterPage() {
                 <Link 
                   to="/"
                   className="bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-700 hover:to-emerald-700 transition-colors"
-                >
+                src="https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=100"
                   Return to Home
                 </Link>
               </ScrollReveal>

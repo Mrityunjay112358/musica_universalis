@@ -41,7 +41,7 @@ export default function HomePage() {
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition-all duration-500 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/whatsapp-image-1.jpeg" 
+                      src="https://images.pexels.com/photos/7520745/pexels-photo-7520745.jpeg?auto=compress&cs=tinysrgb&w=800" 
                       alt="Music Lessons"
                       className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-700"
                     />
@@ -58,7 +58,7 @@ export default function HomePage() {
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition-all duration-500 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/whatsapp-image-5.jpeg" 
+                      src="https://images.pexels.com/photos/6671607/pexels-photo-6671607.jpeg?auto=compress&cs=tinysrgb&w=800" 
                       alt="Donating a Guitar"
                       className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-700"
                     />
@@ -75,7 +75,7 @@ export default function HomePage() {
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition-all duration-500 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/whatsapp-image-4.jpeg" 
+                      src="https://images.pexels.com/photos/8520556/pexels-photo-8520556.jpeg?auto=compress&cs=tinysrgb&w=800" 
                       alt="Music Therapy"
                       className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-700"
                     />
@@ -130,7 +130,7 @@ export default function HomePage() {
               <ScrollReveal delay={0.4} direction="left">
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:neon-purple transition-all duration-500">
                   <img 
-                    src="/whatsapp-image-6.jpeg" 
+                    src="https://images.pexels.com/photos/8520556/pexels-photo-8520556.jpeg?auto=compress&cs=tinysrgb&w=800" 
                     alt="Program Activities"
                     className="w-full h-72 object-cover"
                   />
@@ -144,7 +144,7 @@ export default function HomePage() {
               <ScrollReveal delay={0.5} direction="right">
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:neon-blue transition-all duration-500">
                   <img 
-                    src="/whatsapp-image-7.jpeg" 
+                    src="https://images.pexels.com/photos/7520745/pexels-photo-7520745.jpeg?auto=compress&cs=tinysrgb&w=800" 
                     alt="Education in Action"
                     className="w-full h-72 object-cover"
                   />
@@ -473,7 +473,7 @@ export default function HomePage() {
               <ScrollReveal direction="right">
                 <div className="glass rounded-2xl overflow-hidden border border-white/10 hover:neon-blue transition-all duration-500">
                   <img 
-                    src="/whatsapp-image-2.jpeg" 
+                    src="https://images.pexels.com/photos/6671607/pexels-photo-6671607.jpeg?auto=compress&cs=tinysrgb&w=800" 
                     alt="Individual Lessons"
                     className="w-full h-80 object-cover"
                   />

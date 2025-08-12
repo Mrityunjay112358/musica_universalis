@@ -8,47 +8,47 @@ const teamMembers = [
   {
     name: 'Mirtyunjay Gupta',
     role: 'President',
-    image: '/mjteam.png'
+    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Amairah Sharma',
     role: 'Head of Logistics',
-    image: '/amairahteam.png'
+    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Snishka Grewal',
     role: 'Head of Design',
-    image: '/snishkaateam.png'
+    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Akshita Jain',
     role: 'Head of Finance',
-    image: '/akshitateam.png'
+    image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Diivij Todi',
     role: 'Volunteer Coordinator for NGOs',
-    image: '/diivijteam.png'
+    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Arnav Mathur',
     role: 'Event day head',
-    image: '/arnavteam.png'
+    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Aarohi Murdia',
     role: 'Head of Design',
-    image: '/aarohiteam.png'
+    image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Swastik Dash',
     role: 'Head of Technology',
-    image: '/swastikteam.png'
+    image: 'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
     name: 'Jevesh Jain',
     role: 'Head of Technology',
-    image: '/Jevesh.png'
+    image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400'
   }
 ];
 

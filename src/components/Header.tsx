@@ -48,13 +48,9 @@ export default function Header() {
               <Link to="/" className="flex items-center gap-4">
                 <motion.img 
                   variants={iconVariants}
-                  src="/musica-universalis-logo.png"
+                  src="https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=100"
                   alt="Musica Universalis Logo"
                   className="h-12 w-12 object-contain"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = "/logo.png";
-                  }}
                 />
                 <div>
                   <h1 className="text-2xl font-bold gradient-text-purple">MUSICA UNIVERSALIS</h1>

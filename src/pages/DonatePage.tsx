@@ -157,13 +157,9 @@ export default function DonatePage() {
           <ScrollReveal>
             <div className="w-20 h-20 flex items-center justify-center mx-auto mb-6">
               <img 
-                src="/musica-universalis-logo.png"
+                src="https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=100"
                 alt="Musica Universalis Logo"
                 className="h-16 w-16 object-contain"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "/logo.png";
-                }}
               />
             </div>
           </ScrollReveal>

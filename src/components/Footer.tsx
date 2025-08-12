@@ -7,13 +7,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
           <img 
-            src="/musica-universalis-logo.png"
+            src="https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=100"
             alt="Musica Universalis Logo"
             className="h-8 w-8 object-contain"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.src = "/logo.png";
-            }}
           />
           <span className="font-bold text-xl gradient-text-purple">MUSICA UNIVERSALIS</span>
         </div>
